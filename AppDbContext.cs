@@ -11,6 +11,12 @@ namespace ClientManagement
         }
         public DbSet<StockQuote> StockQuotes { get; set; }
         public DbSet<Client> Clients { get; set; }
-      
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Client>()
+                .HasIndex(c => c.Email)
+                .IsUnique();
+        }
     }
 }

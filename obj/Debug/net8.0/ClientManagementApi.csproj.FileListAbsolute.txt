@@ -135,3 +135,4 @@ E:\Sourse\Company Sourse\New Project\ClientManagementApi\obj\Debug\net8.0\refint
 E:\Sourse\Company Sourse\New Project\ClientManagementApi\obj\Debug\net8.0\ClientManagementApi.pdb
 E:\Sourse\Company Sourse\New Project\ClientManagementApi\obj\Debug\net8.0\ClientManagementApi.genruntimeconfig.cache
 E:\Sourse\Company Sourse\New Project\ClientManagementApi\obj\Debug\net8.0\ref\ClientManagementApi.dll
+E:\Sourse\Company Sourse\New Project\ClientManagementApi\obj\Debug\net8.0\ClientManagementApi.sourcelink.json
