@@ -2,6 +2,8 @@
 using ClientManagement.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClientManagement.Controllers
 {
@@ -10,28 +12,37 @@ namespace ClientManagement.Controllers
     public class ClientsController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly IClientService _clientService;
 
-        public ClientsController(AppDbContext context)
+        public ClientsController(AppDbContext context, IClientService clientService)
         {
             _context = context;
+            _clientService = clientService;
         }
-        //-=====================Get===================================
+
+        //=====================Get===================================
 
         [HttpGet]
-        public ActionResult<IEnumerable<Client>> GetClients()
+        public async Task<ActionResult<IEnumerable<Client>>> GetClients()
         {
-            return _context.Clients.ToList();
+            return await _context.Clients.ToListAsync();
         }
-        //-=====================Update&&Add===================================
+
+        //=====================Update&&Add===================================
         [HttpPost]
-        public ActionResult<Client> CreateClient(Client client)
+        public async Task<ActionResult<Client>> CreateClient(Client client)
         {
-            if (client.Id > 0)  
+            if (!await _clientService.IsEmailUniqueAsync(client.Email, client.Id))
             {
-                var existingClient = _context.Clients.Find(client.Id);
+                return BadRequest("Email already exists.");
+            }
+
+            if (client.Id > 0)
+            {
+                var existingClient = await _context.Clients.FindAsync(client.Id);
                 if (existingClient == null)
                 {
-                    return NotFound(); 
+                    return NotFound();
                 }
 
                 existingClient.FName = client.FName;
@@ -41,7 +52,7 @@ namespace ClientManagement.Controllers
                 existingClient.RegDate = DateTime.UtcNow;
 
                 _context.Clients.Update(existingClient);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
 
                 return Ok(existingClient);
             }
@@ -50,29 +61,28 @@ namespace ClientManagement.Controllers
                 client.Id = 0;
                 client.RegDate = DateTime.UtcNow;
                 _context.Clients.Add(client);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(GetClients), new { id = client.Id }, client); 
+                return CreatedAtAction(nameof(GetClients), new { id = client.Id }, client);
             }
         }
-        //-=====================Delete===================================
+
+        //=====================Delete===================================
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteClient(int id)
+        public async Task<IActionResult> DeleteClient(int id)
         {
-           
-            var client = _context.Clients.Find(id);
+            var client = await _context.Clients.FindAsync(id);
 
             if (client == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
 
-            _context.Clients.Remove(client); 
-            _context.SaveChanges(); 
+            _context.Clients.Remove(client);
+            await _context.SaveChangesAsync();
 
-            return NoContent(); 
+            return NoContent();
         }
-
     }
 }

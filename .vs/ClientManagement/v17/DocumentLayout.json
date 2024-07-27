@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\controller\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:controller\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\service\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:service\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\interface\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:interface\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\controller\\stockquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:controller\\stockquote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|e:\\sourse\\company sourse\\new project\\clientmanagementapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAB19DFA-C9E0-4A28-80AC-D69DF38DB8BB}|ClientManagementApi.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Interface\\IClientService.cs",
+              "RelativeDocumentMoniker": "Interface\\IClientService.cs",
+              "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Interface\\IClientService.cs*",
+              "RelativeToolTip": "Interface\\IClientService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T00:01:32.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StockQuote.cs",
+              "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Controller\\StockQuote.cs",
+              "RelativeDocumentMoniker": "Controller\\StockQuote.cs",
+              "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Controller\\StockQuote.cs",
+              "RelativeToolTip": "Controller\\StockQuote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T00:00:02.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Service\\ClientService.cs",
+              "RelativeDocumentMoniker": "Service\\ClientService.cs",
+              "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Service\\ClientService.cs*",
+              "RelativeToolTip": "Service\\ClientService.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T23:57:21.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T23:55:35.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Controller\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controller\\ClientsController.cs",
+              "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Controller\\ClientsController.cs*",
+              "RelativeToolTip": "Controller\\ClientsController.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T23:53:22.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext.cs",
@@ -35,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Client.cs",
               "DocumentMoniker": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
               "ToolTip": "E:\\Sourse\\Company Sourse\\New Project\\ClientManagementApi\\Models\\Client.cs",
               "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T21:13:04.187Z",
               "EditorCaption": ""
